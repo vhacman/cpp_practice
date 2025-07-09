@@ -1,0 +1,21 @@
+std::
+è un 'namespace qualifier', ovvero serve per accedere a entità (funzioni, classi, oggetti)
+definite all'interno del namespace STD, ovvero quello usato dalla STandard Library di C++.
+
+:: --> operatore di risulozione di ambito (scoper resolution operator)
+std::cout --> significa "voglio usare cout che si trova dentro il namespace std"
+
+Si usa per evitare conflitti di nomi, ovvero, se si ha una funzione o una variabile chiamata
+sempre cout, come fa il compilatore a capire quale usare? --> il namespace serve a risolvere
+l'ambiguità
+
+le entità piu comuni nel namespace std:
+
+| Nome          | Significato                      |
+| ------------- | -------------------------------- |
+| `std::cout`   | Output su terminale              |
+| `std::cin`    | Input da tastiera                |
+| `std::endl`   | Fine linea (`\n` + flush buffer) |
+| `std::string` | Tipo stringa della stdlib        |
+| `std::vector` | Array dinamico                   |
+| `std::sort`   | Funzione per ordinare            |
