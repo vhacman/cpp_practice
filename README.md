@@ -1,4 +1,4 @@
-# CSS---Practice
+# C++---Practice
 
 Un repository personale per esercitarsi con **C++**
 Contiene piccoli esperimenti e test pratici utili per apprendere e consolidare concetti di C++.
