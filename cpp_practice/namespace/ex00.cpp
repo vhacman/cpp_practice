@@ -1,5 +1,12 @@
 #include <iostream>
 
+/*
+**	Initializes the graphics subsystem.
+**
+**	How it works		- Prints "Initialization of the graphics" to standard output  
+**	Params:				none  
+**	Returns:			void  
+*/
 namespace graphics
 {
 	void	init()
@@ -8,6 +15,13 @@ namespace graphics
 	}
 }
 
+/*
+**	Initializes the audio subsystem.
+**
+**	How it works		- Prints "Initialization of the audio" to standard output  
+**	Params:				none  
+**	Returns:			void  
+*/
 namespace audio
 {
 	void	init()
@@ -16,6 +30,14 @@ namespace audio
 	}
 }
 
+/*
+**	Calls initialization routines for graphics and audio.
+**
+**	How it works		- Calls `graphics::init()` to initialize graphics  
+**						- Calls `audio::init()` to initialize audio  
+**	Params:				none  
+**	Returns:			int (implicitly 0 on success)  
+*/
 int	main()
 {
 	graphics::init();

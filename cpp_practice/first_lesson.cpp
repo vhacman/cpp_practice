@@ -1,6 +1,18 @@
 #include <iostream> // header per input/output in C++
 #include <string>   // header per usare std::string
 
+
+/*
+**	Prints sample text and variable values demonstrating basic I/O in C++.
+**
+**	How it works		- Declares variables of types int, double, char, and std::string  
+**						- Initializes each variable with sample values  
+**						- Demonstrates simple output using '\n' and std::endl  
+**						- Prints each variable’s name and value to the console  
+**						- Outputs combined strings and variables (e.g., greeting and age)  
+**	Params:				none  
+**	Returns:			int (implicitly 0 on success)  
+*/
 int main()
 {
 	//---------------------------

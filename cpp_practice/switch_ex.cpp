@@ -34,7 +34,17 @@
 // 		std::cout << "You didn't enter a number between (1-12)" << std::endl;
 // }
 
-
+/*
+**	Prints the name of the month based on user input (1–12).
+**
+**	How it works		- Prompts the user to enter a month number (1–12)  
+**						- Reads the integer `month` from standard input  
+**						- Uses a `switch` statement to match `month`:  
+**							• For 1–12: prints the corresponding month name  
+**							• Default: prints an error message if input is outside 1–12  
+**	Params:				none  
+**	Returns:			void (implicitly returns 0 on success)  
+*/
 int	main()
 {
 	int	month;
